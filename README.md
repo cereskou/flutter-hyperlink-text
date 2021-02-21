@@ -3,6 +3,20 @@ Flutter HyperLink Text Widget
 
 ## HyperLink Text
 
+**Construction**
+
+```
+  const LinkedText({
+    Key key,
+    @required this.text,
+    this.style,
+    this.linkStyle = const TextStyle(color: Colors.blue),
+    this.onPressed,
+  })
+```
+
+**Sample**
+
 ```
     LinkedText(
     text: S.of(context).termsofuse,
